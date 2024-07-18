@@ -1,0 +1,9 @@
+.bgBoxSpecial {
+  background-color: #5e50a1;
+  transition: 0.4s;
+}
+
+.bgBoxSpecial:hover {
+  background-image: url(../../assets/img/bg-special.png);
+  background-position: 0 95.3%;
+}

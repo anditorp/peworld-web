@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .baseButton {
+    @apply text-center transition duration-200;
+  }
+
+  .primaryColor {
+    @apply text-hirejob-white bg-hirejob-purple-normal hover:bg-hirejob-purple-dark;
+  }
+
+  .primaryOutline {
+    @apply text-hirejob-purple-normal hover:bg-hirejob-purple-normal hover:text-hirejob-white;
+  }
+
+  .secondaryColor {
+    @apply text-hirejob-white bg-hirejob-yellow-normal hover:bg-hirejob-yellow-dark;
+  }
+
+  .secondaryOutline {
+    @apply text-hirejob-yellow-normal hover:bg-hirejob-yellow-normal hover:text-hirejob-white;
+  }
+
+  .transparentOutlineHover {
+    @apply bg-hirejob-white hover:bg-[#00000000] hover:text-hirejob-white;
+  }
+
+  .extraButton {
+    @apply text-base border rounded p-[15px] my-4;
+  }
+}

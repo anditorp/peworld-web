@@ -1,0 +1,31 @@
+input::-webkit-inner-spin-button,
+input::-webkit-clear-button {
+  display: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  color: #9ea0a5;
+  opacity: 0.5;
+}
+
+input::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+input::-webkit-calendar-picker-indicator::after {
+  content: "";
+  display: block;
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-512.png)
+    no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -16px;
+}
+
+input[type="file"] {
+  display: none;
+}

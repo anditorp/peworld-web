@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dashboardClasses {
+    @apply hidden lg:block lg:w-[650px] lg:h-[750px] xl:h-[822px] lg:bg-hirejob-purple-normal lg:bg-no-repeat lg:bg-center;
+  }
+}
+
+.dashboardImages {
+  background-image: linear-gradient(
+      rgba(94, 80, 161, 0.8),
+      rgba(94, 80, 161, 0.8)
+    ),
+    url(../../assets/img/login-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
