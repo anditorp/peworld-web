@@ -48,7 +48,7 @@ const EditWorker = () => {
     e.preventDefault();
     const file = e.target.files[0];
 
-    dispatch(updateWorkerProfilePhoto(file));
+    dispatch(updateWorkerProfilePhoto(file, user));
   };
 
   useEffect(() => {

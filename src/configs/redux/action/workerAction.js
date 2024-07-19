@@ -127,12 +127,17 @@ export const updateWorkerProfile = (user) => async (dispatch) => {
 };
 
 // Update worker profile photo action
-export const updateWorkerProfilePhoto = (file) => async (dispatch) => {
+export const updateWorkerProfilePhoto = (file, user) => async (dispatch) => {
   dispatch({ type: "MAIN_REQUEST" });
   dispatch({ type: "ALERT_IDLE" });
 
   const formData = new FormData();
   formData.append("photo", file);
+  formData.append("name", user.name);
+  formData.append("job_desc", user.job_desc);
+  formData.append("domicile", user.domicile);
+  formData.append("workplace", user.workplace);
+  formData.append("description", user.description);
 
   try {
     await api.put(`/worker/update-profile`, formData, {

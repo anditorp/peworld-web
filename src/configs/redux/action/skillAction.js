@@ -49,7 +49,7 @@ export const deleteSkill = (id) => async (dispatch) => {
     type: "ALERT_IDLE",
   });
   try {
-    await api.delete(`/skills/${id}`);
+    await api.delete(`/skill/${id}`);
     dispatch({
       type: "DELETE_SUCCESS",
     });
