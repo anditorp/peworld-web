@@ -86,7 +86,7 @@ const ViewCompany = () => {
               {user.phone && (
                 <div className="flex justify-center md:justify-start items-center gap-[11px] font-normal text-sm text-hirejob-gray h-6">
                   <img src={iconPhone} />
-                  <span>{user.phone} </span>
+                  <span>0{user.phone} </span>
                 </div>
               )}
 
