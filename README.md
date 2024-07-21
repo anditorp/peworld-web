@@ -93,14 +93,14 @@ To run this project, you will need to add the following environment variables to
   </tr>
  <tr>
     <td><image src="./src/assets/screenshot/worker-profile.png" alt="Landing Page" width=100%></td>
-    <td><image src="./src/assets/screenshot/recruiter-profile (6).png" alt="Landing Page After Login" width=100%/></td>
+    <td><image src="./src/assets/screenshot/recruiter-profile (7).png" alt="Landing Page After Login" width=100%/></td>
   </tr>
     <td>Edit Worker Profile</td>
     <td>Edit Recruiter Profile</td>
   </tr>
  <tr>
     <td><image src="./src/assets/screenshot/worker-edit.png" alt="Landing Page" width=100%></td>
-    <td><image src="./src/assets/screenshot/recruiter-edit (6).png" alt="Landing Page After Login" width=100%/></td>
+    <td><image src="./src/assets/screenshot/recruiter-edit (7).png" alt="Landing Page After Login" width=100%/></td>
   </tr>
    
 </table>  
